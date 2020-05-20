@@ -45,6 +45,7 @@ end
 
 group :production do
   gem 'mysql2'
+  gem 'listen', '~> 3.2'
 end
 
 group :test do
